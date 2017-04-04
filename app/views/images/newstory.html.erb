@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+</head>
+<body>
+
+<div id="story">
+
+  <h1>The Heisenberg Touch</h1>
+
+  <div class="container">
+    <span class="thumbs"><img src='<%= @midas[0].url %>'></span>
+      <p> King Midas was a crystal king who had the talent to create blue sky crystals which would make him lots of gold. It was said that he had the ultimate crystal, but he could only make a limited amount of it. 
+      </p>
+  </div>
+
+  <div class="container">
+    <span class="thumbs"><img src='<%= @daughter[0].url %>'></span> 
+      <p> He loved his little daughter and it was she that inspired him to create the best blue sky so he may provide for his family. 
+      </p>
+  </div>
+
+  <div class="container">
+    <span class="thumbs"><img src='<%= @fairy[0].url %>'></span>
+      <p> A fairy came and told the King he can grant him the ability to distribute larger quantities of blue sky 
+      </p>
+  </div>
+
+  <div class="container">
+    <span class="thumbs"><img src='<%= @gold[0].url %>'></span>
+      <p>everywhere to every corner which could leave the King's family all the gold in the world.
+      </p>
+  </div>
+
+  <div> 
+    <p>
+    King Midas agreed and the fairy granted him world distribution. The King wanted everyone to know that only blue crystal had the Midas Touch and no other crystal surpassed the quality. The more blue crystal, the more gold. The King was so consumed with fame, success and riches he forgot about the importance of love and respect from his little girl and family. He put gold above all else and his family lost everyone they loved. In the end all they had was gold.
+    </p>
+  </div>
+
+  
+<%= link_to("pick new photos", {:action => 'index'}, :class => 'action index') %>
+
+</div>
+
+</body>
+
+</html>

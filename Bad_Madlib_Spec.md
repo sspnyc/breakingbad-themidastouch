@@ -1,4 +1,4 @@
-# <center> Breaking Midas Touch Madlib in Ruby on Rails
+# <center> Breaking Midas Touch Madlib
 ---
 <center><img src="http://imageserver.moviepilot.com/the-best-moments-from-breaking-bad-in-one-giant-mashup-new-breaking-bad-theory-that-will-blow-your-mind.jpeg?width=850&height=637">
 
@@ -63,7 +63,7 @@ The user can then click the `BACK` button to return to the homepage and select d
 ```
 /add?
 ```
-# Add more photos to Madlibs
+#Add more photos to Madlibs
 
 | Walter White  | enter url | save button |
 | ---------------- | --------- |-------------|

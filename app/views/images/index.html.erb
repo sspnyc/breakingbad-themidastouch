@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+</head>
+<body>
+
+<div id="index">
+  
+<%= image_tag "BreakingMidas.png" %>
+
+<h1>BadLibs</h1>
+  <h2>Pick a Photo From Each Category</h2>
+
+  <form method="POST" action="/newstory">
+    
+    <section class="thumbs">
+      <h3>King Midas</h3>
+        <% @walter.each do |image| %>
+          <input type="radio" name="midasGroup" value="<%= image.id %>">
+          <img src="<%= image.url %>">
+        <% end %>
+    
+    </section>
+
+    <section class="thumbs">
+      <h3>Little Daughter</h3>
+        <% @baby.each do |image| %>
+          <input type="radio" name="daughter" value="<%= image.id %>">
+          <img src="<%= image.url %>">
+        <% end %>
+    </section>
+
+    <section class="thumbs">
+      <h3>Gold</h3>
+        <% @blue_sky.each do |image| %>
+          <input type="radio" name="gold" value="<%= image.id %>">
+          <img src="<%= image.url %>">
+        <% end %>
+    </section>
+
+    <section class="thumbs">
+      <h3>Fairy</h3>
+        <% @gus.each do |image| %>
+          <input type="radio" name="fairy" value="<%= image.id %>">
+          <img src="<%=image.url %>">
+        <% end %>
+    </section>
+    
+    <% flash.each do |key, value| %>
+        <div class="alert alert-<%= key %>"><%= value %></div>
+      <% end %>
+    
+    <button type="submit">TELL STORY</button>
+   
+  </form>
+</div>
+
+<div id="add">
+  <form method="GET" action="/add">
+    <button type="submit">ADD YOUR PHOTOS</button>
+  </form>
+</div>
+
+</body>
+</html>
