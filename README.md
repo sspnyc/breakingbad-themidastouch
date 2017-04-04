@@ -1,6 +1,6 @@
 # <center> Breaking Midas Touch Madlib in Ruby on Rails
 ---
-<center><img src="http://imageserver.moviepilot.com/the-best-moments-from-breaking-bad-in-one-giant-mashup-new-breaking-bad-theory-that-will-blow-your-mind.jpeg?width=850&height=637">
+<center><img src="https://s-media-cache-ak0.pinimg.com/originals/0c/6e/a5/0c6ea5eab1c1fe08bc820f03763782a7.png">
 
 A classic madlibs game where users choose words to inject into a story with a twist. Instead of words to choose from, the users choose pictures.  The story of King Midas will be updated with the help of the popular show Breaking Bad.  
 
